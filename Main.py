@@ -634,9 +634,6 @@ while running:
             if t > generationTime:
                 bestBrain = brain
 
-    if generationNumber == 50:
-        print(fitnessHistory)
-        running = False
 
     if t > generationTime:
         t = 0
